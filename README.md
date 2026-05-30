@@ -8,7 +8,7 @@
 ---
 
 ## Abstract
-This paper presents a novel optimization for the **Multiple Polynomial Quadratic Sieve (MPQS)** algorithm, architected by Jacopo, by embedding a deterministic geometric filter derived from the **Pisano Period $\pi(180) = 120$**, extended to a quadratic field modulo **$M = 240$**. 
+This paper presents a novel optimization for the **Multiple Polynomial Quadratic Sieve (MPQS)** algorithm, architected by Jacopo Liberati, by embedding a deterministic geometric filter derived from the **Pisano Period $\pi(180) = 120$**, extended to a quadratic field modulo **$M = 240$**. 
 
 Traditional MPQS implementations spend up to 80-90% of their execution pipeline initializing sieve arrays and computing log approximations for speculative smooth relations. Our framework introduces a rigid modular bitmask that prunes **95.00%** of the sieve space *at zero computational overhead*, restricting the hardware timeline to high-probability convergence vectors defined by the geometric semi-distance invariants.
 
