@@ -1,5 +1,6 @@
 # Hybrid-MPQS: Extended Pisano Field Masking for SIQS/MPQS Engines
 
+[![DOI](https://shields.io)](https://zenodo.org)](https://doi.org/10.5281/zenodo.20467447)
 [![License: MIT](https://shields.io)](https://opensource.org)
 [![C++20](https://shields.io)](https://isocpp.org)
 
@@ -73,5 +74,7 @@ If you utilize this optimization or build upon the Pisano Masking architecture i
   publisher = {GitHub},
   journal = {GitHub Repository},
   howpublished \(= {\url{https://github.com}} \)}
+  doi = {10.5281/zenodo.20467447}
+
 ```
 
